@@ -1,0 +1,13 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.adapterTargetName": "esp32",
+  "files.associations": {
+    "string.h": "c",
+    "mqtt_client.h": "c",
+    "freertos.h": "c",
+    "semphr.h": "c",
+    "stdio.h": "c",
+    "uart.h": "c",
+    "esp_log.h": "c"
+  }
+}
