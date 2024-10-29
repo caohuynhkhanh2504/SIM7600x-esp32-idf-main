@@ -318,7 +318,7 @@ rule C_STATIC_LIBRARY_LINKER____idf_main_
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = D:\Espressif\tools\cmake\3.24.0\bin\cmake.exe --regenerate-during-build -SD:\Espressif\frameworks\esp-idf-v5.3.1\components\bootloader\subproject -BD:\NCKH2024\SIM_A7600C\Software\SIM7600x-Esp32-idf-main\build\bootloader
+  command = D:\Espressif\tools\cmake\3.24.0\bin\cmake.exe --regenerate-during-build -SD:\Espressif\frameworks\esp-idf-v5.3.1\components\bootloader\subproject -BD:\NCKH2024\Summary\Huka\SIM7600x-Esp32-idf-main\build\bootloader
   description = Re-running CMake...
   generator = 1
 

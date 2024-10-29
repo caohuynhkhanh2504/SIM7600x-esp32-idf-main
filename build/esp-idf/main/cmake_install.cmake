@@ -1,4 +1,4 @@
-# Install script for directory: D:/NCKH2024/SIM_A7600C/Software/SIM7600x-Esp32-idf-main/main
+# Install script for directory: D:/NCKH2024/Summary/Huka/SIM7600x-Esp32-idf-main/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

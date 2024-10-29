@@ -1,4 +1,4 @@
-# Install script for directory: D:/NCKH2024/SIM_A7600C/Software/SIM7600x-Esp32-idf-main/managed_components/espressif__led_strip
+# Install script for directory: D:/NCKH2024/Summary/Huka/SIM7600x-Esp32-idf-main/managed_components/espressif__led_strip
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

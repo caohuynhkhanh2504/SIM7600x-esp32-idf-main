@@ -1,6 +1,6 @@
 /* Automatically generated file; DO NOT EDIT */
 /* Espressif IoT Development Framework Linker Script */
-/* Generated from: D:\NCKH2024\SIM_A7600C\Software\SIM7600x-Esp32-idf-main\build\esp-idf\esp_system\ld\sections.ld.in */
+/* Generated from: D:\NCKH2024\Summary\Huka\SIM7600x-Esp32-idf-main\build\esp-idf\esp_system\ld\sections.ld.in */
 
 /*
 

@@ -1,4 +1,4 @@
-/* * Data converted from D:/NCKH2024/SIM_A7600C/Software/SIM7600x-Esp32-idf-main/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from D:/NCKH2024/Summary/Huka/SIM7600x-Esp32-idf-main/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 #if !defined (__APPLE__) && !defined (__linux__)

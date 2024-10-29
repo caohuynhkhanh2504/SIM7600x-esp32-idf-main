@@ -1,0 +1,195 @@
+[0;32mI (13) boot: ESP-IDF v5.3.1-dirty 2nd stage bootloader[0m
+[0;32mI (13) boot: compile time Oct 27 2024 23:33:26[0m
+[0;32mI (13) boot: Multicore bootloader[0m
+[0;32mI (17) boot: chip revision: v3.0[0m
+[0;32mI (21) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (26) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (30) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (35) boot: Enabling RNG early entropy source...[0m
+[0;32mI (40) boot: Partition Table:[0m
+[0;32mI (44) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (51) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (58) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (66) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (73) boot: End of partition table[0m
+[0;32mI (78) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=1ee90h (126608) map[0m
+[0;32mI (129) esp_image: segment 1: paddr=0002eeb8 vaddr=3ffb0000 size=01160h (  4448) load[0m
+[0;32mI (131) esp_image: segment 2: paddr=00030020 vaddr=400d0020 size=598c8h (366792) map[0m
+[0;32mI (261) esp_image: segment 3: paddr=000898f0 vaddr=3ffb1160 size=013bch (  5052) load[0m
+[0;32mI (263) esp_image: segment 4: paddr=0008acb4 vaddr=40080000 size=0edcch ( 60876) load[0m
+[0;32mI (298) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (298) boot: Disabling RNG early entropy source...[0m
+[0;32mI (310) cpu_start: Multicore app[0m
+[0;32mI (319) cpu_start: Pro cpu start user code[0m
+[0;32mI (319) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (319) app_init: Application information:[0m
+[0;32mI (322) app_init: Project name:     SIM7600x-Esp32-idf-main[0m
+[0;32mI (328) app_init: App version:      86f4086-dirty[0m
+[0;32mI (334) app_init: Compile time:     Oct 27 2024 23:31:34[0m
+[0;32mI (340) app_init: ELF file SHA256:  b404d8208...[0m
+[0;32mI (345) app_init: ESP-IDF:          v5.3.1-dirty[0m
+[0;32mI (350) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (355) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (360) efuse_init: Chip rev:         v3.0[0m
+[0;32mI (365) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (372) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (378) heap_init: At 3FFB4280 len 0002BD80 (175 KiB): DRAM[0m
+[0;32mI (384) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (391) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (397) heap_init: At 4008EDCC len 00011234 (68 KiB): IRAM[0m
+[0;32mI (405) spi_flash: detected chip: generic[0m
+[0;32mI (408) spi_flash: flash io: dio[0m
+[0;32mI (413) main_task: Started on CPU0[0m
+[0;32mI (423) main_task: Calling app_main()[0m
+[0;32mI (2533) SIM7600C_MQTT: Response: AT+NETCLOSE
++NETCLOSE: 2
+
+ERROR
+[0m
+[0;31mE (2533) SIM7600C_MQTT: Unexpected response: AT+NETCLOSE
++NETCLOSE: 2
+
+ERROR
+[0m
+[0;32mI (4633) SIM7600C_MQTT: Response: AT+CPIN?
++CPIN: READY
+
+OK
+[0m
+[0;32mI (6733) SIM7600C_MQTT: Response: AT+CREG?
++CREG: 0,1
+
+OK
+[0m
+[0;32mI (8833) SIM7600C_MQTT: Response: AT+CGATT=1
+OK
+[0m
+[0;32mI (8833) SIM7600C_MQTT: Attached to GPRS[0m
+[0;32mI (11433) SIM7600C_MQTT: Response: AT+CSQ
++CSQ: 21,99
+
+OK
+[0m
+[0;32mI (13533) SIM7600C_MQTT: Response: AT+CGDCONT=1,"IP","v-internet"
+OK
+[0m
+[0;32mI (13533) SIM7600C_MQTT: APN set successfully[0m
+[0;32mI (15633) SIM7600C_MQTT: Response: AT+COPS?
++COPS: 0,2,"45204",7
+
+OK
+[0m
+[0;32mI (20733) SIM7600C_MQTT: Response: AT+NETOPEN
+OK
+
++NETOPEN: 0
+[0m
+[0;32mI (20733) SIM7600C_MQTT: GPRS Connected Successfully.[0m
+[0;32mI (22833) SIM7600C_MQTT: Response: AT+CGACT?
++CGACT: 1,1
+
++CGACT: 8,1
+
+OK
+[0m
+[0;32mI (24933) SIM7600C_MQTT: Response: AT+CGPADDR
++CGPADDR: 1,9.223.27.197
+
++CGPADDR: 8,5.229.83.100
+
+OK
+[0m
+[0;32mI (24933) SIM7600C_MQTT: GPRS Connection Successfully[0m
+[0;32mI (24933) SIM7600C_MQTT: GPRS setup succesfully.[0m
+[0;32mI (27043) SIM7600C_MQTT: Response: AT+CGATT?
++CGATT: 1
+
+OK
+[0m
+[0;32mI (27043) SIM7600C_MQTT: DNS setup successfully.[0m
+[0;32mI (29143) SIM7600C_MQTT: Response: AT+CREG?
++CREG: 0,1
+
+OK
+[0m
+[0;32mI (29143) SIM7600C_MQTT: Network registration status checked[0m
+[0;32mI (31243) SIM7600C_MQTT: Response: AT+CGREG?
++CGREG: 0,1
+
+OK
+[0m
+[0;32mI (36343) SIM7600C_MQTT: Response: AT+NETOPEN?
++NETOPEN: 1
+
+OK
+[0m
+[0;32mI (36343) SIM7600C_MQTT: Network opened successfully[0m
+[0;32mI (38443) SIM7600C_MQTT: Response: AT+CGDCONT?
++CGDCONT: 1,"IP","v-internet","9.223.27.197",0,0,,,,
+
++CGDCONT: 8,"IPV4V6","IMS","5.229.83.100 ",0,0,0,2,1,1
+
+OK
+[0m
+[0;32mI (43543) SIM7600C_MQTT: Response: AT+CPING=?
++CPING: IP address,(1,2),(1-5),(4-188),(1000-10000),(10000-100000),(16-255)
+
+OK
+[0m
+[0;32mI (45643) SIM7600C_MQTT: Response: AT+IPADDR
++IPADDR: 9.223.27.197
+
+OK
+[0m
+[0;32mI (47743) SIM7600C_MQTT: Response: AT+CIPRXGET=1
+OK
+[0m
+[0;32mI (49843) SIM7600C_MQTT: Response: AT+CIPOPEN?
++CIPOPEN: 0
++CIPOPEN: 1
++CIPOPEN: 2
++CIPOPEN: 3
++CIPOPEN: 4
++CIPOPEN: 5
++CIPOPEN: 6
++CIPOPEN: 7
++CIPOPEN: 8
++CIPOPEN: 9
+
+OK
+[0m
+[0;32mI (54943) SIM7600C_MQTT: Response: AT+CIPOPEN=1,"TCP","test.mosquitto.org",1883"
++CIPOPEN: 1,3
+
+ERROR
+[0m
+[0;31mE (54943) SIM7600C_MQTT: Unexpected response: AT+CIPOPEN=1,"TCP","test.mosquitto.org",1883"
++CIPOPEN: 1,3
+
+ERROR
+[0m
+[0;32mI (57053) SIM7600C_MQTT: Response: AT+CIPSEND=1,27
++CIPERROR: 4
+
+ERROR
+[0m
+[0;31mE (57053) SIM7600C_MQTT: Unexpected response: AT+CIPSEND=1,27
++CIPERROR: 4
+
+ERROR
+[0m
+[0;32mI (62153) SIM7600C_MQTT: Response: AT+CPING="8.8.8.8",5000
+ERROR
+[0m
+[0;31mE (62153) SIM7600C_MQTT: Unexpected response: AT+CPING="8.8.8.8",5000
+ERROR
+[0m
+[0;31mE (62153) SIM7600C_MQTT: No internet connection.[0m
+[0;32mI (62163) SIM7600C_MQTT: Error for MQTT[0m
+[0;31mE (62163) esp-tls: couldn't get hostname for :test.mosquitto.org: getaddrinfo() returns 202, addrinfo=0x0[0m
+[0;31mE (62173) transport_base: Failed to open a new connection: 32769[0m
+[0;31mE (62183) mqtt_client: Error transport connect[0m
+[0;32mI (62183) SIM7600C_MQTT: Error for MQTT[0m
+[0;32mI (62193) SIM7600C_MQTT: MQTT_EVENT_DISCONNECTED[0m
+[0;32mI (62193) SIM7600C_MQTT: Published data: Cao Huynh Khanh[0m
+[0;32mI (67203) SIM7600C_MQTT: Published data: Cao Huynh Khanh[0m

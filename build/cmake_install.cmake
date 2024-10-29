@@ -1,4 +1,4 @@
-# Install script for directory: D:/NCKH2024/SIM_A7600C/Software/SIM7600x-Esp32-idf-main
+# Install script for directory: D:/NCKH2024/Summary/Huka/SIM7600x-Esp32-idf-main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/NCKH2024/SIM_A7600C/Software/SIM7600x-Esp32-idf-main/build/esp-idf/cmake_install.cmake")
+  include("D:/NCKH2024/Summary/Huka/SIM7600x-Esp32-idf-main/build/esp-idf/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/NCKH2024/SIM_A7600C/Software/SIM7600x-Esp32-idf-main/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/NCKH2024/Summary/Huka/SIM7600x-Esp32-idf-main/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

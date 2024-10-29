@@ -3,4 +3,4 @@ source "D:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_app_format/Kconfig
 source "D:/Espressif/frameworks/esp-idf-v5.3.1/components/esp_rom/Kconfig.projbuild"
 source "D:/Espressif/frameworks/esp-idf-v5.3.1/components/esptool_py/Kconfig.projbuild"
 source "D:/Espressif/frameworks/esp-idf-v5.3.1/components/partition_table/Kconfig.projbuild"
-source "D:/NCKH2024/SIM_A7600C/Software/SIM7600x-Esp32-idf-main/main/Kconfig.projbuild"
+source "D:/NCKH2024/Summary/Huka/SIM7600x-Esp32-idf-main/main/Kconfig.projbuild"

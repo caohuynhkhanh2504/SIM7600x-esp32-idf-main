@@ -1,13 +1,13 @@
 # Target labels
  bootloader
 # Source files and their labels
-D:/NCKH2024/SIM_A7600C/Software/SIM7600x-Esp32-idf-main/build/CMakeFiles/bootloader
-D:/NCKH2024/SIM_A7600C/Software/SIM7600x-Esp32-idf-main/build/CMakeFiles/bootloader.rule
-D:/NCKH2024/SIM_A7600C/Software/SIM7600x-Esp32-idf-main/build/CMakeFiles/bootloader-complete.rule
-D:/NCKH2024/SIM_A7600C/Software/SIM7600x-Esp32-idf-main/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
-D:/NCKH2024/SIM_A7600C/Software/SIM7600x-Esp32-idf-main/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
-D:/NCKH2024/SIM_A7600C/Software/SIM7600x-Esp32-idf-main/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
-D:/NCKH2024/SIM_A7600C/Software/SIM7600x-Esp32-idf-main/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
-D:/NCKH2024/SIM_A7600C/Software/SIM7600x-Esp32-idf-main/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
-D:/NCKH2024/SIM_A7600C/Software/SIM7600x-Esp32-idf-main/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
-D:/NCKH2024/SIM_A7600C/Software/SIM7600x-Esp32-idf-main/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
+D:/NCKH2024/Summary/Huka/SIM7600x-Esp32-idf-main/build/CMakeFiles/bootloader
+D:/NCKH2024/Summary/Huka/SIM7600x-Esp32-idf-main/build/CMakeFiles/bootloader.rule
+D:/NCKH2024/Summary/Huka/SIM7600x-Esp32-idf-main/build/CMakeFiles/bootloader-complete.rule
+D:/NCKH2024/Summary/Huka/SIM7600x-Esp32-idf-main/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+D:/NCKH2024/Summary/Huka/SIM7600x-Esp32-idf-main/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+D:/NCKH2024/Summary/Huka/SIM7600x-Esp32-idf-main/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+D:/NCKH2024/Summary/Huka/SIM7600x-Esp32-idf-main/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+D:/NCKH2024/Summary/Huka/SIM7600x-Esp32-idf-main/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+D:/NCKH2024/Summary/Huka/SIM7600x-Esp32-idf-main/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+D:/NCKH2024/Summary/Huka/SIM7600x-Esp32-idf-main/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
